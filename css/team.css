@@ -1,0 +1,210 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+
+}
+
+
+.top-banner {
+	background-image: url(../images/lightbulb.jpg);
+	max-width: 100%;
+	height: 10rem;
+}
+
+.password {
+	color: white;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: 50%;
+	font-family: 'Muli', sans-serif;
+}
+
+nav {
+	width:100%;
+	display: none;
+	color: #464646;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding-left: 10px;
+	align-content: center;
+
+}
+
+#page-header {
+	background: rgba(255,255,255,.8);
+	position: absolute;
+	color: #1b3c79;
+	overflow: hidden;
+	padding: 0 3%;
+	width: 100%;
+	padding-top: 10px;
+	z-index: 10;
+	top: 0;
+}
+
+#page-header a {
+	text-decoration: none;
+}
+
+#page-header nav {
+	float: left;
+	padding-bottom: 5px;
+}
+
+#page-header nav li {
+	color: #1b3c79;
+	list-style: none;
+	float: left;
+	font-family: sans-serif, 'Muli';
+	padding: 0 50px 0 0;
+}
+
+#page-header nav a {
+	text-transform: uppercase;
+	color: #1b3c79;
+	display: block;
+	padding: 0 20px 0 0;
+}
+
+#page-header nav li a:hover {
+	color: #0099cc;
+}
+
+
+#page-header nav strong {
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+}
+
+.hamburger {
+	padding-left: 20px;
+	padding-top: 8px;
+	float: left;
+}
+
+.hamburger .line{
+	width: 42px;
+	height: 0.2em;
+	background: #1b3c79;
+	border-radius: 1em;
+	margin-top: 0.25em;
+}
+
+.password label {
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.password input {
+	color: white;
+	background-color: transparent;
+	outline-color: white;
+	outline: 1px;
+	width: 300px;
+	height: 50px;
+	font-size: 30px;
+}
+
+.person1 {
+	width: 80%;
+}
+
+.person1 #headshot {
+  	overflow: hidden;
+  	text-align: left;
+	width: 300px;
+	padding-top: 1%;
+	padding-left: 6%;
+	padding-right: 3%;
+	float: left;
+}
+
+#text {
+	padding-left: 6%;
+}
+
+.pdf {
+	width: 40px;
+}
+
+.email {
+	width: 40px;
+}
+
+.linkedin {
+	width: 40px;
+}
+
+.vcard {
+	width: 40px;
+}
+
+hr {
+    border-top:1px dotted #000;
+    color: #464646;
+}
+
+h1 {
+	font-family: sans-serif, 'Muli';
+	text-transform: uppercase;
+	font-weight: 500;
+	color: rgba(255,255,255,.8);
+	padding-top: 30%;
+	padding-left: 20%;
+	padding-bottom: none;
+	font-size: 100px;
+	line-height: 100px;
+
+}
+
+h3 {
+	font-family: sans-serif, 'Muli';
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: none;
+	padding-left: 20%;
+	font-size: 3rem;
+	line-height: 2rem;
+}
+
+h4 {
+	font-family: sans-serif, 'Muli';
+	color: #1b3c79;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+
+h5 {
+	font-family: sans-serif, 'Muli';
+	color: #1b3c79;
+	font-size: 1em;
+	line-height: 0;
+}
+
+p {
+	font-family: sans-serif, 'Open Sans';
+	font-weight: 300;
+	color: #95989A;
+	font-size: 1.2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+#text {
+	clear: all;
+	float: right;
+}
+
+}
+
